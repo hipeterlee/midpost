@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #C08552;
+    margin: 0px;
+    color: #3f2118;
+}
+
+header {
+    background: #5E3023;
+    color: #F3E9DC;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: x-large;
+    font-family: 華康行楷體W5;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: #895737;
+    font-family: Arial;
+    text-align: center;
+    z-index: 0;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #DAB49D;
+    color: #F3E9DC;
+}
+
+footer {
+    background: #895737;
+    color: #444444;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 1%;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+article {
+    float: right;
+    width: 70%;
+}
+
+aside {
+    position: sticky;
+    top: 11%;
+    float: left;
+    width: 25%;
+    text-align: center
+}
+
+.aside {
+    width: 25%;
+}
+
+.blank {
+    background: #F3E9DC;
+    margin: 35px;
+    padding: 1px 35px 10px 35px;
+    z-index: -1;
+    border-radius: 3%;
+}
+
+a {
+    font-family: 華康行楷體W5;
+    font-size: x-large;
+    color: #F3E9DC;
+}
+
+p {
+    font-family: 華康行楷體W5;
+    font-size: larger;
+    text-align: left;
+}
+
+h1,
+h2,
+h5 {
+    font-family: 華康行楷體W5;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.about {
+    border-radius: 50%;
+    width: 49%;
+    float: left;
+}
+
+table,
+tr,
+td {
+    height: 0px;
+    font-family: 華康行楷體W5;
+    font-size: larger;
+}
+
+td {
+    width: 10%;
+    text-align: center;
+}
+
+.img {
+    border-radius: 50%;
+    width: 75%;
+    margin: 10px;
+}
+
+.table {
+    font-size: 16px;
+    padding: 20px;
+}
+
+:root {
+    scroll-padding-top: 5rem;
+}
+
+.img2 {
+    border-radius: 50%;
+    width: 45%;
+}
+
+.img3 {
+    border-radius: 20%;
+    width: 80px;
+}
+
+fieldset {
+    height: 270px;
+    font-family: 華康行楷體W5;
+    font-size: large;
+}
+
+legend {
+    font-size: x-large;
+}
